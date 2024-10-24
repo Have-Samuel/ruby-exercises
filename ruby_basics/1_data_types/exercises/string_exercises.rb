@@ -69,19 +69,19 @@ def empty_string(string)
 end
 empty_string("something")
 
-# def string_length(string)
-#   # return the length of the string
-#   string = 'string'
-#   puts string.length
-# end
-# string_length("string")
+def string_length(string)
+  # return the length of the string
+  string = 'string'
+  puts string.length
+end
+string_length("string")
 
-# def reverse(string)
-#   # return the same string, with all of its characters reversed
-#   string = 'strings'
-#   puts string.reverse
-# end
-# reverse(" I have a string  !")
+def reverse(string)
+  # return the same string, with all of its characters reversed
+  string = 'strings'
+  puts string.reverse
+end
+reverse("strings")
 
 # def space_remover(string)
 #   # remove all the spaces in the string using gsub
