@@ -26,12 +26,12 @@ def divide(a, b)
 end
 divide(8, 2)
 
-# def remainder(a, b)
-#   # return the remainder of dividing a by b using the modulo operator
-#   remainder =a % b
-#   puts "Remainder #{remainder}"
-# end
-# remainder(11, 5)
+def remainder(a, b)
+  # return the remainder of dividing a by b using the modulo operator
+  remainder =a % b
+  puts "Remainder #{remainder}"
+end
+remainder(11, 5)
 
 # def float_division(a, b)
 #   # return the result of dividing a by b as a float, rather than an integer
