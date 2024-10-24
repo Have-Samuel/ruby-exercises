@@ -11,14 +11,16 @@ def concatenate_example(string)
 end
 concatenate_example("string")
 
-# def concatenate(string)
-#   # use concatenation to format the result to be "Hello <string>!"
-#   greeting = "Hello"
-#   str = "string"
-#   sayHi = greeting << " " << str << "!"
-#   puts sayHi
-# end
-# concatenate("string")
+def concatenate(string)
+  # use concatenation to format the result to be "Hello <string>!"
+  greeting = "Hello"
+  str = "string"
+  # sayHi = greeting << " " << str << "!"
+  # puts sayHi
+  sayIt = "#{greeting} #{str}!"
+  puts sayIt
+end
+concatenate("string")
 
 # def substrings(word)
 #   # return the first 4 letters from the word using substrings
