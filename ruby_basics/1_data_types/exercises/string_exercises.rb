@@ -34,12 +34,12 @@ def substrings(word)
 end
 substrings("substring")
 
-# def capitalize(word)
-#   # capitalize the first letter of the word
-#   word = "capitalize"
-#   puts word.capitalize
-# end
-# capitalize("capitalize")
+def capitalize(word)
+  # capitalize the first letter of the word
+  word = "capitalize"
+  puts word.capitalize
+end
+capitalize("capitalize")
 
 # def uppercase(string)
 #   # uppercase all letters in the string
