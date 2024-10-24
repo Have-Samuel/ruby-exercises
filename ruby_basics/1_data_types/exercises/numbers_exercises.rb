@@ -1,6 +1,7 @@
 def add(a, b)
   # return the result of adding a and b
-  puts a + b
+  add = a + b
+  puts "Add: #{add}"
 end
 add(10, 4)
 
@@ -9,21 +10,21 @@ def subtract(a, b)
   subtract = b - a
   puts "Subtract: #{subtract}"
 end
-subtract(2, 5)
+subtract(12, 86)
 
-# def multiply(a, b)
-#   # return the result of multiplying a times b
-#   multiply = a * b
-#   puts "Multiply: #{multiply}"
-# end
-# multiply(3, 4)
+def multiply(a, b)
+  # return the result of multiplying a times b
+  multiply = a * b
+  puts "Multiply: #{multiply}"
+end
+multiply(3, 4)
 
-# def divide(a, b)
-#   # return the result of dividing a by b
-#   divide = a / b
-#   puts "Divide: #{divide}"
-# end
-# divide(8, 2)
+def divide(a, b)
+  # return the result of dividing a by b
+  divide = a / b
+  puts "Divide: #{divide}"
+end
+divide(8, 2)
 
 # def remainder(a, b)
 #   # return the remainder of dividing a by b using the modulo operator
