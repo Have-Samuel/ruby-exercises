@@ -41,19 +41,19 @@ def capitalize(word)
 end
 capitalize("capitalize")
 
-# def uppercase(string)
-#   # uppercase all letters in the string
-#   string = 'uppercase'
-#   puts string.upcase
-# end
-# uppercase("uppercase")
+def uppercase(string)
+  # uppercase all letters in the string
+  string = 'uppercase'
+  puts string.upcase
+end
+uppercase("uppercase")
 
-# def downcase(string)
-#   # downcase all letters in the string
-#   string = 'DOWNCASE'
-#   puts string.downcase
-# end
-# downcase("DOWNCASE")
+def downcase(string)
+  # downcase all letters in the string
+  string = 'DOWNCASE'
+  puts string.downcase
+end
+downcase("DOWNCASE")
 
 # def empty_string(string)
 #   # return true if the string is empty
