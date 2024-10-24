@@ -83,12 +83,12 @@ def reverse(string)
 end
 reverse("strings")
 
-# def space_remover(string)
-#   # remove all the spaces in the string using gsub
-#   str = 'I have a string'
-#   str1 = 'Have Samuel Kababreebe'
-#   puts str1.gsub(" ", "")
-#   # puts str.gsub(/\s+/, "")
-#   puts str.gsub(" ", "")
-# end
-# space_remover('string')
+def space_remover(string)
+  # remove all the spaces in the string using gsub
+  str = 'I have a string'
+  str1 = 'Have Samuel Kababreebe'
+  puts str1.gsub(" ", "")
+  # puts str.gsub(/\s+/, "")
+  puts str.gsub(" ", "")
+end
+space_remover('string')
