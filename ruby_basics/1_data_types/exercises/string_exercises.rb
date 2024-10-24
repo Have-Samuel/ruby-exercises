@@ -55,12 +55,19 @@ def downcase(string)
 end
 downcase("DOWNCASE")
 
-# def empty_string(string)
-#   # return true if the string is empty
-#   string = ''
-#   puts string.empty?
-# end
-# empty_string("")
+def empty_string(string)
+  # return true if the string is empty
+  string = ''
+  puts string.empty?
+end
+empty_string("")
+
+def empty_string(string)
+  # return true if the string is empty
+  string = 'something'
+  puts string.empty?
+end
+empty_string("something")
 
 # def string_length(string)
 #   # return the length of the string
